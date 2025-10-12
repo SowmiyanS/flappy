@@ -35,11 +35,12 @@ function isGameOver() {
 }
 
 function loop() {
-    //updateBird();
+    updateBird();
     updatePipes();
 
     isGameOver();
 }
 
-
+// attach the click event listener for section
+section.addEventListener("click", tap);
 setInterval(loop, ticks);
