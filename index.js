@@ -15,5 +15,5 @@ let curr_y = bird.pageY;
 
 setTimeout(() => {
     let call_y = curr_y + (g * dt);
-    bird.style.transform(call_y+"px");
+    bird.style.transform = call_y+"px";
 }, "10");
