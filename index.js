@@ -17,5 +17,5 @@ setInterval(() => {
     console.log(curr_y);
     let call_y = curr_y + (g * dt);
     console.log(call_y);
-    bird.style.transform = call_y+"px";
+    bird.style.top = call_y+"px";
 }, "1000");
