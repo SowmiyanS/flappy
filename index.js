@@ -11,6 +11,7 @@ function updateBird() {
     // get the current y position
     let y = bird.offsetTop;
     let newY = y + g * dt;
+    console.log(newY+"");
 }
 function updatePipes() {
     console.log("not implemented");
