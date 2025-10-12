@@ -26,6 +26,7 @@ function updatePipes() {
 function isGameOver() {
     // is bird hit the ground
     if(bird.offsetTop > 0) {
+        debugger;
         if(bird.offsetTop > window.innerHeight / 2) {
             window.alert("You Lose!");
             window.location.replace("lose.html");
