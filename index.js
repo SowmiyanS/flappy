@@ -11,6 +11,7 @@ let g = 20;
 
 function updateBird() {
     // get the current y position
+    debugger;
     let y = bird.offsetTop;
     v = v + g * dt;
     let newY = y + v;
@@ -25,14 +26,10 @@ function updatePipes() {
 }
 function isGameOver() {
     // is bird hit the ground
-    if(bird.offsetTop > 0) {
-        debugger;
-        if(bird.offsetTop > window.innerHeight / 2) {
-            window.alert("You Lose!");
-            window.location.replace("lose.html");
-        }
+    if(Math.abs(bird.offsetTop) > window.innerHeight) {
+        window.alert("You Lose!");
+        window.location.replace("lose.html");
     }
-
 }
 
 function loop() {
