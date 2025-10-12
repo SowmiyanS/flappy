@@ -13,7 +13,7 @@ let g = -6;
 let dt = 10/1000
 let curr_y = bird.offsetTop;
 
-setTimeout(() => {
+setInterval(() => {
     console.log(curr_y);
     let call_y = curr_y + (g * dt);
     bird.style.transform = call_y+"px";
