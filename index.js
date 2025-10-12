@@ -13,7 +13,7 @@ let g = -6;
 let dt = 10/1000
 let curr_y = bird.offsetTop;
 
-setInterval(() => {
+setTimeout(() => {
     console.log(curr_y);
     let call_y = curr_y + (g * dt);
     console.log(call_y);
