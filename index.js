@@ -11,8 +11,9 @@ function handleClick() {
 }
 let g = -6;
 let dt = 10/1000
+let curr_y = bird.pageY;
 
 setTimeout(() => {
-    let cal_y = call_y + (g * dt);
-    bird.style.transform(cal_y+"px");
+    let call_y = curr_y + (g * dt);
+    bird.style.transform(call_y+"px");
 }, "10");
