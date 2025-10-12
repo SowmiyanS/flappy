@@ -19,6 +19,7 @@ function updatePipes() {
     console.log("not implemented");
 }
 function isGameOver() {
+    // is bird hit the ground
     if(bird.offsetTop > 0) {
         if(bird.offsetTop > window.innerHeight / 2) {
             window.alert("You Lose!");
