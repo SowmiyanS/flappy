@@ -36,6 +36,7 @@ function isGameOver() {
 }
 
 function loop() {
+    debugger;
     updateBird();
     updatePipes();
 
