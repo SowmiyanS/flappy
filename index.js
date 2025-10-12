@@ -5,7 +5,7 @@ let bird = document.getElementById("bird");
 let fps = 30;
 let ticks = 1000/fps;
 let dt = 1/ticks;
-let g = 30;
+let g = 40;
 
 function updateBird() {
     // get the current y position
