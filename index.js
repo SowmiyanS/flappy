@@ -19,7 +19,7 @@ function updateBird() {
 }
 function tap() {
     // we invert the velocity so the bird now goes in the opposite direction [for a while].
-    v = -(Math.abs(v));
+    v = -(g/2);
 }
 function updatePipes() {
     console.log("not implemented");
