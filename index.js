@@ -12,6 +12,6 @@ function handleClick() {
 let g = -6;
 
 setTimeout(() => {
-    let cal_y += curr_y * g
+    let cal_y += g
     bird.style.transform(cal_y+"px");
 });
