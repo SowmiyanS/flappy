@@ -23,4 +23,4 @@ function loop() {
     updatePipes();
 }
 
-setTimeout(loop, ticks);
+setInterval(loop, ticks);
