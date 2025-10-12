@@ -5,8 +5,14 @@ let bird = document.getElementById("bird");
 let fps = 30;
 let ticks = 1000/fps;
 
-function loop() {
-
+function updateBirds() {
+    // get the current y position
+    let y = bird.
 }
 
-setInterval(loop, ticks);
+function loop() {
+    updateBird();
+    updatePipes();
+}
+
+//setInterval(loop, ticks);
