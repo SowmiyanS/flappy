@@ -5,13 +5,14 @@ let bird = document.getElementById("bird");
 let fps = 30;
 let ticks = 1000/fps;
 let dt = 1/ticks;
-let g = 40;
+let g = 10;
 
 function updateBird() {
     // get the current y position
     let y = bird.offsetTop;
     let newY = y + g * dt;
     console.log(newY+"");
+    bird.style.top = newY+"px";
 }
 function updatePipes() {
     console.log("not implemented");
