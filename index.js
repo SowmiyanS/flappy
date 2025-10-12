@@ -6,4 +6,5 @@ bird.addEventListener("click", handleClick);
 
 function handleClick() {
     console.dir(this);
+    console.dir(event);
 }
