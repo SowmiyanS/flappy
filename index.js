@@ -26,10 +26,11 @@ function isGameOver() {
             window.location.replace("lose.html");
         }
     }
+
 }
 
 function loop() {
-    updateBird();
+    //updateBird();
     updatePipes();
 
     isGameOver();
