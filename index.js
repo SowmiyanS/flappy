@@ -21,6 +21,13 @@ function tap() {
     // we invert the velocity so the bird now goes in the opposite direction [for a while].
     v = -(g/2);
 }
+
+let pipes = [];
+for(let i = 0; i < 10;i++) {
+    let pipe = document.createElement("div");
+    pipe.classList.toggle("pipe");
+    pipes.push();
+}
 function updatePipes() {
     console.log("not implemented");
 }
