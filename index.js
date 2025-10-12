@@ -16,6 +16,7 @@ function updateBird() {
     bird.style.top = newY+"px";
 }
 function tap() {
+    // we invert the velocity so the bird now goes in the opposite direction [for a while].
     v = -25;
 }
 function updatePipes() {
