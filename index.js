@@ -35,8 +35,10 @@ function updatePipes() {
     // 
     for(let i = 0;i < 10;i++) {
         let pipe = pipes[i];
+        if(pipe.offsetLeft !== "-1") {
+            // the pipe is in the DOM
 
-
+        }
     }
 }
 function isGameOver() {
