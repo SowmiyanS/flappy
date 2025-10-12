@@ -37,7 +37,10 @@ function updatePipes() {
         let pipe = pipes[i];
         if(pipe.offsetLeft !== "out") {
             // the pipe is in the DOM
-
+            let xs = pipe.style.left;
+            let x = Number(xs.slice(0, -2));
+            let newX = x + pipe_v;
+            pipe.style.top = newX+"px";
         }
     }
 }
