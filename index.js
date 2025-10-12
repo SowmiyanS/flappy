@@ -13,6 +13,6 @@ let g = -6;
 let dt = 10/1000
 
 setTimeout(() => {
-    let cal_y += g * dt;
+    let cal_y = call_y + (g * dt);
     bird.style.transform(cal_y+"px");
 }, "10");
