@@ -19,9 +19,11 @@ function updatePipes() {
     console.log("not implemented");
 }
 function isGameOver() {
-    if(bird.offsetTop > window.innerHeight / 2) {
-        window.alert("You Lose!");
-        window.location.replace("lose.html");
+    if(bird.offsetTop > 0) {
+        if(bird.offsetTop > window.innerHeight / 2) {
+            window.alert("You Lose!");
+            window.location.replace("lose.html");
+        }
     }
 }
 
