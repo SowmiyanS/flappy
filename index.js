@@ -34,6 +34,8 @@ let pipe_v = -20;
 function updatePipes() {
     // 
     for(let i = 0;i < 10;i++) {
+        let pipe = pipes[i];
+
 
     }
 }
