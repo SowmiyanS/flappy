@@ -20,3 +20,9 @@ setInterval(() => {
     console.log(call_y);
     bird.style.top = call_y+"px";
 }, "1000");
+
+setInterval(() => {
+    if(bird.offsetTop > window.innerHeight / 2) {
+        window.alert("you lose");
+    }
+}, "1000");
