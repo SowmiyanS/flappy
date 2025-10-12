@@ -11,7 +11,7 @@ function handleClick() {
 }
 let g = -6;
 let dt = 10/1000
-let curr_y = bird.pageY;
+let curr_y = bird.offsetTop;
 
 setTimeout(() => {
     let call_y = curr_y + (g * dt);
