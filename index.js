@@ -21,6 +21,7 @@ function updatePipes() {
 function isGameOver() {
     if(bird.offsetTop > window.innerHeight / 2) {
         window.alert("You Lose!");
+        window.location.replace("lose.html");
     }
 }
 
