@@ -11,7 +11,8 @@ let g = 20;
 function updateBird() {
     // get the current y position
     let y = bird.offsetTop;
-    let newY = y + g * dt;
+    v = v + g * dt;
+    let newY = y + v;
     bird.style.top = newY+"px";
 }
 function updatePipes() {
