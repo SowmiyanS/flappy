@@ -10,7 +10,7 @@ function handleClick() {
     let curr_y = event.pageY;
 }
 let g = 6;
-let dt = 10/1000
+let dt = 100/1000
 let curr_y = bird.offsetTop;
 
 setInterval(() => {
