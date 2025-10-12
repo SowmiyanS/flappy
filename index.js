@@ -7,4 +7,5 @@ bird.addEventListener("click", handleClick);
 function handleClick() {
     console.dir(this);
     console.dir(event);
+    let curr_y = event.pageY;
 }
