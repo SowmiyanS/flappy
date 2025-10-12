@@ -26,7 +26,7 @@ let pipes = [];
 for(let i = 0; i < 10;i++) {
     let pipe = document.createElement("div");
     pipe.classList.toggle("pipe");
-    pipe.offsetLeft = "-1";
+    pipe.offsetLeft = "out";
     pipes.push();
 }
 let pipeSpace = 400;
@@ -35,7 +35,7 @@ function updatePipes() {
     // 
     for(let i = 0;i < 10;i++) {
         let pipe = pipes[i];
-        if(pipe.offsetLeft !== "-1") {
+        if(pipe.offsetLeft !== "out") {
             // the pipe is in the DOM
 
         }
