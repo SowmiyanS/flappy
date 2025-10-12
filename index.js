@@ -9,7 +9,7 @@ function handleClick() {
     console.dir(event);
     let curr_y = event.pageY;
 }
-let g = 6;
+let g = 10;
 let dt = 1000/1000
 let curr_y = bird.offsetTop;
 
