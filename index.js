@@ -11,8 +11,8 @@ let g = 20;
 
 function updateBird() {
     // get the current y position
-    debugger;
-    let y = bird.offsetTop;
+    let ys = bird.style.top;
+    let y = ys.
     v = v + g * dt;
     let newY = y + v;
     bird.style.top = newY+"px";
@@ -33,9 +33,8 @@ function isGameOver() {
 }
 
 function loop() {
-    debugger;
-    updateBird();
-    updatePipes();
+    //updateBird();
+    //updatePipes();
 
     isGameOver();
 }
