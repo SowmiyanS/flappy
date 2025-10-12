@@ -6,7 +6,6 @@ let fps = 30;
 let ticks = 1000/fps;
 
 function loop() {
-    console.log("hi");
 
 }
 
