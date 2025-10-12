@@ -33,8 +33,8 @@ function isGameOver() {
 }
 
 function loop() {
-    //updateBird();
-    //updatePipes();
+    updateBird();
+    updatePipes();
 
     isGameOver();
 }
