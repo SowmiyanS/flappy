@@ -14,4 +14,4 @@ let g = -6;
 setTimeout(() => {
     let cal_y += g
     bird.style.transform(cal_y+"px");
-});
+}, "10");
