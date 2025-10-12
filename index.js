@@ -18,10 +18,17 @@ function updateBird() {
 function updatePipes() {
     console.log("not implemented");
 }
+function isGameOver() {
+    if(bird.offsetTop > window.innerHeight / 2) {
+        window.alert("You Lose!");
+    }
+}
 
 function loop() {
     updateBird();
     updatePipes();
+
+    isGameOver();
 }
 
 setInterval(loop, ticks);
