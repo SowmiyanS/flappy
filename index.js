@@ -15,6 +15,9 @@ function updateBird() {
     let newY = y + v;
     bird.style.top = newY+"px";
 }
+function tap() {
+    v = -25;
+}
 function updatePipes() {
     console.log("not implemented");
 }
