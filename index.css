@@ -2,3 +2,8 @@
     padding: 0;
     margin: 0;
 }
+
+#bird {
+    width: 30px;
+    height: 20px;
+}
