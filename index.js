@@ -26,12 +26,16 @@ let pipes = [];
 for(let i = 0; i < 10;i++) {
     let pipe = document.createElement("div");
     pipe.classList.toggle("pipe");
+    pipe.offsetLeft = "-1";
     pipes.push();
 }
 let pipeSpace = 400;
 let pipe_v = -20;
 function updatePipes() {
     // 
+    for(let i = 0;i < 10;i++) {
+
+    }
 }
 function isGameOver() {
     // is bird hit the ground
