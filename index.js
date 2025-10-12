@@ -28,8 +28,10 @@ for(let i = 0; i < 10;i++) {
     pipe.classList.toggle("pipe");
     pipes.push();
 }
+let pipeSpace = 400;
+let pipe_v = -20;
 function updatePipes() {
-    console.log("not implemented");
+    // 
 }
 function isGameOver() {
     // is bird hit the ground
