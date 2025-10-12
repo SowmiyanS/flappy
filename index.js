@@ -17,4 +17,4 @@ setTimeout(() => {
     console.log(curr_y);
     let call_y = curr_y + (g * dt);
     bird.style.transform = call_y+"px";
-}, "10");
+}, "1000");
