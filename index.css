@@ -8,3 +8,9 @@
     height: 20px;
     background-color: green;
 }
+
+article.main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
