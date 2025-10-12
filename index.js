@@ -12,7 +12,7 @@ let g = 20;
 function updateBird() {
     // get the current y position
     let ys = bird.style.top;
-    let y = ys.
+    let y = Numeber(ys.slice(0, -2));
     v = v + g * dt;
     let newY = y + v;
     bird.style.top = newY+"px";
