@@ -14,3 +14,9 @@ article.main {
     align-items: center;
     justify-content: center;
 }
+
+section.main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
